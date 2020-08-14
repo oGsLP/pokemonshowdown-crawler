@@ -1,0 +1,23 @@
+{
+  "name": "pokemonshowdown-crawler",
+  "version": "1.0.0",
+  "description": "crawl ladder and info of play.pokemonshowdown.com",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ps",
+    "poekmonshowdown",
+    "crawler"
+  ],
+  "author": "oGsLP",
+  "license": "ISC",
+  "targetUrl": "http://play.pokemonshowdown.com/"
+}
